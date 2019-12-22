@@ -147,8 +147,6 @@ function init() {
 		clothingImgage4Big.setAttribute("alt", "czarna sukienka");
 		clothingImg4ForDesktop.appendChild(clothingImgage4Big);
 		clothingImg4ForSmall.replaceWith(clothingImg4ForDesktop);
-
-
 	}
 	else if (screenWidth > 500) {
 		/* replacing pictures in <<four FURTHER London PHOTOS>> */
@@ -294,11 +292,4 @@ function init() {
 		clothingImg4ForTablet.appendChild(clothingImgage4);
 		clothingImg4ForSmall.replaceWith(clothingImg4ForTablet);
 	}
-
 }
-
-
-
-
-
-
