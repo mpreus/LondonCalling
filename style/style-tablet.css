@@ -1,0 +1,199 @@
+/* basic reset */
+* {
+	border: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+/* general */
+body {
+	font-family: 'Helvetica', sans-serif;
+}
+.container, .container-narrow {
+	margin: 0 auto;
+	position: relative;
+	width: 800px;
+}
+
+/* HEADIMG element with video */
+.main-photo {
+	background-image: url("../img/T-pic1_03.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+	position: relative;
+}
+iframe {
+	height: 380px;
+	left: 100px;
+	position: absolute;
+	top: 240px;
+	width: 600px;
+}
+
+/* four FURTHER London PHOTOS */
+.tempting-town--model > img {
+	width: 800px;
+}
+section.london-photos {
+	height: 624px;
+	margin: 0 auto;
+	width: 800px;
+}
+.gif-picture1 {
+	width: 800px;
+}
+.gif-picture1 img {
+	width: 800px;
+}
+section.london-photos--two {
+	height: 800px;
+	margin: 0 auto;
+	width: 800px;
+}
+.london-photos--two .container {
+	margin: 0;
+	width: 800px;
+}
+.centralcafe-picture {
+	width: 800px; 
+ }
+.centralcafe-picture img {
+	width: 815px;
+}
+section.london-photos--twoBis {
+	height: 0;
+}
+.tabledancing-picture {
+	left: 418px;
+	position: absolute;
+	top: -565px;
+}
+
+/* SHOES section */
+section.shoes-offer {
+	height: 820px;
+}
+/* internal items */
+.shoes-offer--item {
+	display: inline-block;
+	font-size: 20px;
+	height: 360px;
+	margin-left: 70px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 280px;
+}
+.shoes-offer--item > button {
+	background: #000;
+	color: #fff;
+	font-size: 20px;
+	padding: 7px 40px;
+	text-transform: uppercase;
+}
+.shoe-picture1, .shoe-picture2, .shoe-picture3, .shoe-picture4 {
+	margin-left: 20px;
+}
+.shoes-offer--item img {
+	margin: 20px auto;
+	width: 280px;
+}
+.shoes-offer--item p {
+	letter-spacing: 1px;
+	padding-bottom: 6px;
+}
+p.bolded-text {
+	font-weight: bold;
+}
+p.light-text {
+	font-weight: lighter;
+}
+
+/* LONDON SHINES section */
+section.london-shines {
+	height: 800px;
+	margin: 0 auto;
+	width: 800px;
+}
+.london-shines .container {
+	position: relative;
+}
+.london-shines-picture img {
+	width: 800px;
+}
+section.london-shines--two {
+	height: 650px;
+	margin: 0 auto;
+	width: 800px;
+}
+.london-shines--two .container {
+	position: relative;
+}
+.gif-picture2 {
+	margin: 0 auto;
+	margin-top: -100px;
+	width: 450px;
+}
+.gif-picture2 img {
+	width: 450px;
+}
+section.london-shines--twoBis {
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 800px;
+}
+.moth-picture img {
+	width: 800px;
+}
+
+/* CLOTHING offer section */
+section.clothing-offer {
+	height: 1140px;
+	margin-top: -60px;
+}
+.clothing-offer--item {
+	display: inline-block;
+	font-size: 20px;
+	height: 490px;
+	margin-left: 40px;
+	padding-top: -30px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 344px;
+}
+.clothing-offer--item > button {
+	background: #000;
+	color: #fff;
+	font-size: 20px;
+	margin-top: 20px;
+	padding: 7px 45px;
+	text-transform: uppercase;
+}
+.clothing-img1, .clothing-img2, .clothing-img3, .clothing-img4  {
+	height: 350px;
+	margin-bottom: 20px;
+	margin-top: 60px;
+	width: 320px;
+}
+.clothing-img2 img, .clothing-img4 img {
+	height: 350px;
+	margin-left: 10px;
+	width: 230px;
+}
+.clothing-img1 img {
+	height: 350px;
+	margin-left: 10px;
+	width: 250px;
+}
+.clothing-img3 img {
+	height: 350px;
+	margin-left: 10px;
+	width: 130px;
+}
+.clothing-offer--item p {
+	letter-spacing: 1px;
+	line-height: 1;
+}

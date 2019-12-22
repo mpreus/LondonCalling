@@ -1,0 +1,122 @@
+/* basic reset */
+* {
+	border: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+/* general */
+body {
+	font-family: 'Helvetica', sans-serif;
+}
+.container, .container-narrow {
+	margin: 0 auto;
+	position: relative;
+	width: 380px;
+}
+
+/* HEADIMG element with video */
+.main-photo {
+	background-image: url("../img/pic1_03.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 490px;
+	position: relative;
+}
+iframe {
+	left: 40px;
+	position: absolute;
+	top: 140px;
+}
+
+/* four FURTHER London PHOTOS */
+.tempting-town--model > img {
+	width: 380px;
+}
+section.london-photos {
+	height: 350px;
+}
+.gif-picture1 > img {
+	width: 380px;
+}
+.centralcafe-picture > img {
+	width: 380px;
+}
+.tabledancing-picture > img {
+	width: 380px;
+}
+
+/* SHOES section */
+section.shoes-offer {
+	height: 460px;
+}
+/* internal items */
+.shoes-offer--item {
+	display: inline-block;
+	font-size: 14px;
+	height: 200px;
+	margin-left: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 160px;
+}
+.shoes-offer--item > button {
+	background: #000;
+	color: #fff;
+	font-size: 14px;
+	padding: 7px 40px;
+	text-transform: uppercase;
+}
+.shoes-offer--item img {
+	margin: 20px auto;
+	width: 120px;
+}
+.shoes-offer--item p {
+	letter-spacing: 1px;
+	padding-bottom: 6px;
+}
+p.bolded-text {
+	font-weight: bold;
+}
+p.light-text {
+	font-weight: lighter;
+}
+
+/* LONDON SHINES section */
+section.london-shines--twoBis {
+	margin-top: -20px;
+}
+
+/* CLOTHING offer section */
+section.clothing-offer {
+	height: 850px;
+	margin-top: -20px;
+}
+.clothing-offer--item {
+	display: inline-block;
+	font-size: 14px;
+	height: 280px;
+	margin-left: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 160px;
+}
+.clothing-offer--item > button {
+	background: #000;
+	color: #fff;
+	font-size: 14px;
+	padding: 7px 40px;
+	text-transform: uppercase;
+}
+.clothing-img1, .clothing-img2, .clothing-img3, .clothing-img4  {
+	height: 240px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+	width: 160px;
+}
+.clothing-offer--item p {
+	letter-spacing: 1px;
+	padding-bottom: 6px;
+}
