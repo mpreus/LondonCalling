@@ -115,6 +115,10 @@ section.shoes-offer {
 	margin-top: 10px;
 	padding: 7px 40px;
 	text-transform: uppercase;
+	transition-duration: .7s;
+}
+.shoes-offer--item > button:hover {
+	background: #555;
 }
 .shoes-offer--item img {
 	margin: 20px auto;
@@ -196,6 +200,10 @@ section.clothing-offer {
 	margin-top: 20px;
 	padding: 5px 32px;
 	text-transform: uppercase;
+	transition-duration: .7s;
+}
+.clothing-offer--item > button:hover {
+	background: #555;
 }
 .clothing-img1, .clothing-img2, .clothing-img3, .clothing-img4  {
 	height: 470px;

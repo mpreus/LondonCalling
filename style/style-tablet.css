@@ -92,7 +92,12 @@ section.shoes-offer {
 	font-size: 20px;
 	padding: 7px 40px;
 	text-transform: uppercase;
+	transition-duration: .7s;
 }
+.shoes-offer--item > button:hover {
+	background: #555;
+}
+
 .shoe-picture1, .shoe-picture2, .shoe-picture3, .shoe-picture4 {
 	margin-left: 20px;
 }
@@ -171,6 +176,10 @@ section.clothing-offer {
 	margin-top: 20px;
 	padding: 7px 45px;
 	text-transform: uppercase;
+	transition-duration: .7s;
+}
+.clothing-offer--item > button:hover {
+	background: #555;
 }
 .clothing-img1, .clothing-img2, .clothing-img3, .clothing-img4  {
 	height: 350px;
