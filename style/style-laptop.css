@@ -22,7 +22,7 @@ body {
 	width: 1440px;
 }
 .container-narrow {
-	margin-left: 240px;
+	margin-left: 160px;
 	position: absolute;
 	width: 1200px;
 }
@@ -97,21 +97,21 @@ section.london-photos--two {
 section.shoes-offer {
 	height: 400px;
 	margin-top: 120px;
-	width: 1440px;
+	width: 1200px;
 }
 /* internal items */
 .shoes-offer--item {
 	display: inline-block;
-	font-size: 20px;
-	height: 400px;
+	font-size: 18px;
+	height: 300px;
 	text-align: center;
 	text-transform: uppercase;
-	width: 330px;
+	width: 260px;
 }
 .shoes-offer--item > button {
 	background: #000;
 	color: #fff;
-	font-size: 16px;
+	font-size: 14px;
 	margin-top: 10px;
 	padding: 7px 40px;
 	text-transform: uppercase;
@@ -121,8 +121,8 @@ section.shoes-offer {
 	background: #555;
 }
 .shoes-offer--item img {
-	margin: 20px auto;
-	width: 330px;
+	margin: 18px auto;
+	width: 260px;
 }
 .shoes-offer--item p {
 	letter-spacing: 1px;
@@ -138,16 +138,14 @@ p.light-text {
 /* LONDON SHINES sections */
 section.london-shines {
 	display: block;
-	height: 1130px;
+	height: 800px;
 	margin: 0 auto;
-	margin-left: 240px;
-	margin-top: 30px;
 	position: relative;
-	width: 1440px;
+	width: 1200px;
 }
 .london-shines-picture > img {
 	position: absolute;
-	width: 1440px;
+	width: 1200px;
 }
 section.london-shines--two {
 	display: block;
@@ -159,57 +157,72 @@ section.london-shines--two {
 	width: 1440px;
 }
 .gif-picture2 > img {
-	left: 6px;
+	left: -100px;
 	position: absolute;
-	width: 590px;
+	top: 180px;
+	width: 480px;
 }
 section.london-shines--twoBis {
 	display: block;
-	height: 666px;
+	height: 500px;
 	margin: 0 auto;
 	margin-top: -600px;
 	margin-left: 240px;
 	position: relative;
-	width: 1440px;
+	width: 1200px;
 }
 .moth-picture > img {
-	left: 440px;
+	left: 280px;
 	position: absolute;
+	top: 140px;
+	width: 800px;
 	z-index: -100;
-	width: 1000px;
 }
 
 /* CLOTHING offer section */
 section.clothing-offer {
 	display: block;
 	height: 740px;
+	margin-top: 200px;
 }
 .clothing-offer--item {
 	display: inline-block;
-	font-size: 20px;
-	height: 700px;
-	margin-right: 15px;
+	font-size: 18px;
+	height: 600px;
+	margin-right: 12px;
 	text-align: center;
 	text-transform: uppercase;
-	width: 320px;
+	width: 250px;
 }
 .clothing-offer--item > button {
 	background: #000;
 	color: #fff;
 	font-size: 16px;
 	margin-top: 20px;
-	padding: 5px 32px;
+	padding: 5px 30px;
 	text-transform: uppercase;
 	transition-duration: .7s;
 }
 .clothing-offer--item > button:hover {
 	background: #555;
 }
-.clothing-img1, .clothing-img2, .clothing-img3, .clothing-img4  {
-	height: 470px;
-	margin-bottom: 20px;
-	margin-top: 40px;
-	width: 320px;
+.clothing-img1, .clothing-img2, .clothing-img3, .clothing-img4 {
+	height: 440px;
+	margin-bottom: 18px;
+	margin-top: 30px;
+	width: 250px;
+}
+.clothing-img1 > img, .clothing-img2 > img, .clothing-img4 > img {
+	height: 380px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	width: 250px;
+}
+.clothing-img3 > img {
+	height: 420px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	width: 220px;
 }
 .clothing-offer--item p {
 	letter-spacing: 1px;
