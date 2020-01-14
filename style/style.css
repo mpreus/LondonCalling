@@ -144,3 +144,7 @@ section.clothing-offer {
 	letter-spacing: 1px;
 	padding-bottom: 6px;
 }
+a {
+	color: white;
+	text-decoration: none;
+}
