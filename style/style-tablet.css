@@ -25,6 +25,9 @@ body {
 	height: 800px;
 	position: relative;
 }
+.main-photo:hover {
+	filter: contrast(115%) saturate(115%);
+}
 iframe {
 	height: 380px;
 	left: 100px;
@@ -37,6 +40,9 @@ iframe {
 .tempting-town--model > img {
 	width: 800px;
 }
+.tempting-town--model > img:hover {
+	filter: saturate(115%) brightness(90%);
+}
 section.london-photos {
 	height: 624px;
 	margin: 0 auto;
@@ -47,6 +53,9 @@ section.london-photos {
 }
 .gif-picture1 img {
 	width: 800px;
+}
+.gif-picture1 img:hover {
+	filter: saturate(115%) brightness(90%);
 }
 section.london-photos--two {
 	height: 800px;
@@ -63,6 +72,9 @@ section.london-photos--two {
 .centralcafe-picture img {
 	width: 815px;
 }
+.centralcafe-picture img:hover {
+	filter: saturate(115%) brightness(90%);
+}
 section.london-photos--twoBis {
 	height: 0;
 }
@@ -70,6 +82,9 @@ section.london-photos--twoBis {
 	left: 418px;
 	position: absolute;
 	top: -565px;
+}
+.tabledancing-picture:hover {
+	filter: saturate(115%) brightness(90%);
 }
 
 /* SHOES section */

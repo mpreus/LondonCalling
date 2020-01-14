@@ -25,6 +25,9 @@ body {
 	height: 490px;
 	position: relative;
 }
+.main-photo:hover {
+	filter: contrast(115%) saturate(115%);
+}
 iframe {
 	left: 40px;
 	position: absolute;
@@ -35,17 +38,30 @@ iframe {
 .tempting-town--model > img {
 	width: 380px;
 }
+.tempting-town--model > img:hover {
+	filter: saturate(115%) brightness(90%);
+}
 section.london-photos {
 	height: 350px;
 }
 .gif-picture1 > img {
 	width: 380px;
 }
+.gif-picture1 > img:hover {
+	filter: saturate(115%) brightness(90%);
+}
+
 .centralcafe-picture > img {
 	width: 380px;
 }
+.centralcafe-picture > img:hover {
+	filter: saturate(115%) brightness(90%);
+}
 .tabledancing-picture > img {
 	width: 380px;
+}
+.tabledancing-picture > img:hover {
+	filter: saturate(115%) brightness(90%);
 }
 
 /* SHOES section */
