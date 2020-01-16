@@ -168,6 +168,15 @@ section.london-shines--twoBis {
 .moth-picture img {
 	width: 800px;
 }
+.london-shines-picture > img:hover {
+	filter: saturate(115%) brightness(90%);
+}
+.gif-picture2 > img:hover {
+	filter: saturate(115%) brightness(90%);
+}
+.moth-picture > img:hover {
+	filter: saturate(115%) brightness(90%);
+}
 
 /* CLOTHING offer section */
 section.clothing-offer {
