@@ -1,4 +1,5 @@
-Landing page poświęcony marce 'born2be'. 
+Landing page wykonany wg zadanych wzorców - osobno dla desktopa, tablet i smartfon, poświęcony marce 'born2be'.
+Wzorce w folderze 'layouts'.
 Kliknij w link, by zobaczyć efekt.
 Optymalizowany wg zasady 'mobile first', z poprawnym wyświetlaniem dla smartfonów, tabletów, laptopów i desktopów.
 Na każdym z przyjętych urządzeń (definiowanych przez szerokość ekranu) układ treści jest nieco inny. Ładowane są też inne zestawy zdjęć (optymalizowane dla różnych wielkości ekranów).
